@@ -1,0 +1,379 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    margin-top: 0;
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px goldenrod solid;
+    background-image: url("../images/top_bg.jpg");
+}
+
+.header {
+    width: 1030px;
+    height: 100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.header ul li {
+    list-style: none;
+    line-height: 40px;
+    width: 110px;
+    display: inline-block;
+    float: left;
+    margin: 35px 0 0 0;
+}
+
+.header ul li:nth-last-child(2) {
+    margin-left: 20px;
+}
+
+.header ul li a {
+    font-family: "Microsoft YaHei UI";
+    background: url("../images/icon1.png") no-repeat left 50px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: #CFC5A8;
+}
+
+/*.submenu_ul li div{*/
+/*line-height: 45px;*/
+/*height:45px;*/
+/*position: absolute;*/
+/*top: 101px;*/
+/*z-index: 6;*/
+/*display: none;*/
+/*background: rgb(109,93,69);*/
+/*!*padding: 0 10px 0 10px;*!*/
+/*color: wheat;*/
+/*}*/
+/*.submenu_ul li div p{*/
+/*height: 45px;*/
+/*text-align: center;*/
+/*width: 90px;*/
+/*display: inline-block;*/
+/*!*margin: 0 15px 0 10px;*!*/
+/*}*/
+.dropmenudiv {
+    line-height: 45px;
+    height: 45px;
+    position: absolute;
+    top: 101px;
+    z-index: 6;
+    display: none;
+    background: rgb(109, 93, 69);
+    /*padding: 0 10px 0 10px;*/
+    color: wheat;
+}
+
+.dropmenudiv p {
+    height: 45px;
+    text-align: center;
+    width: 120px;
+    display: inline-block;
+}
+
+.dropmenudiv a {
+    color: wheat;
+}
+
+.dropmenudiv p:hover {
+    background: rgb(255, 191, 0);
+    color: white;
+}
+
+.swiper-container {
+    width: 1903px;
+    height: 680px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.swiper-pagination span {
+    background: goldenrod;
+}
+
+#product_list {
+    height: 360px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#product_list .swiper-wrapper .item {
+    position: absolute;
+    top: 0;
+    display: block;
+    height: 360px;
+    width: 100%;
+    background: rgba(31, 31, 31, 0.65);
+    z-index: 2;
+    color: goldenrod;
+    text-align: left;
+}
+
+#product_list .swiper-wrapper .item p {
+    margin: 85px 0 10px 15%;
+    font-size: 25px;
+}
+
+#product_list .swiper-wrapper .item span {
+    display: block;
+    font-family: "Microsoft YaHei UI";
+    margin: 0 0 10px 15%;
+    font-size: 25px;
+}
+
+#product_list .swiper-wrapper .item i {
+    margin-left: 15%;
+    font-size: 14px;
+}
+
+#product_list .swiper-wrapper .item:hover {
+    opacity: 0;
+
+}
+
+.add {
+    height: 46px;
+    width: 46px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+    background: url("../images/i1.jpg");
+}
+
+.middle {
+    height: 1223px;
+    width: 100%;
+    background: #999999;
+}
+
+.middle_top {
+    height: 135px;
+    width: 1085px;
+    margin: 0 auto;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.middle_middle {
+    height: 540px;
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.middle_middle > div {
+    height: 270px;
+    width: 360px;
+    float: left;
+    background: #6A6A6A;
+}
+
+.middle_middle div:nth-child(even) {
+    text-align: center;
+    color: white;
+}
+
+.middle_middle div:nth-child(even) p {
+    font-family: "Microsoft YaHei UI";
+    font-size: 25px;
+    margin: 60px 0 14px;
+}
+
+.middle_middle div:nth-child(even) span {
+    font-family: "Microsoft YaHei UI";
+    display: block;
+    font-size: 12px;
+    margin-top: 5px;
+    line-height: 20px;
+}
+
+.middle_middle div:nth-child(even) div {
+    border: 1px #999999 solid;
+    width: 118px;
+    height: 28px;
+    line-height: 28px;
+    margin-top: 45px;
+    display: inline-block;
+    text-align: center;
+}
+
+.middle_middle div:nth-child(even) div a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.middle_middle div:nth-child(even) div:hover {
+    background: rgb(203, 195, 159);
+    border: rgb(203, 195, 159) 1px solid;
+}
+
+.middle_bottom {
+    height: 420px;
+    width: 1080px;
+    background: white;
+    margin: 30px auto 0;
+}
+
+.middle_bottom_head {
+    height: 70px;
+    line-height: 70px;
+}
+
+.middle_bottom_head h2 {
+    display: inline-block;
+    width: 100px;
+    margin-left: 30px;
+    color: #999999;
+    font-family: "Microsoft YaHei UI";
+}
+
+.middle_bottom_head span {
+    float: right;
+    margin-right: 30px;
+    font-family: "Microsoft YaHei UI";
+}
+
+.middle_bottom_head span a {
+    text-decoration: none;
+    color: #999999;
+}
+
+.middle_bottom_head span a:hover {
+    color: goldenrod;
+}
+
+.middle_bottom hr {
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.middle_bottom_bottom {
+    width: 1020px;
+    height: 156px;
+    margin: 7px 0 12px 30px;
+}
+
+.middle_bottom_bottom_left {
+    width: 260px;
+    height: 156px;
+    float: left;
+}
+
+.middle_bottom_bottom_left img {
+    width: 260px;
+    height: 156px;
+}
+
+.middle_bottom_bottom_right {
+    float: left;
+    height: 156px;
+}
+
+.middle_bottom_bottom_right p {
+    font-size: 14px;
+    color: grey;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.middle_bottom_bottom_right a {
+    color: black;
+}
+
+.middle_bottom_bottom_right a:hover {
+    color: goldenrod;
+}
+
+.middle_bottom_bottom_right span {
+    display: inline-block;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.foot {
+    background: #505050;
+    height: 290px;
+    width: 100%;
+}
+
+.foot_1 {
+    height: 290px;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.foot_1_top {
+    height: 65px;
+    width: 1100px;
+    border-bottom: 2px #7B7B7B solid;
+}
+
+.foot_1_top_tittle {
+    width: 183.3px;
+    height: 65px;
+    float: left;
+    color: #F4E7C5;
+    line-height: 65px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: "Microsoft YaHei UI";
+}
+
+.foot_1_top_content {
+    width: 183.3px;
+    height: 202px;
+    float: left;
+    color: #F4E7C5;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.foot_1_top_content a {
+    display: inline-block;
+    font-size: 12px;
+    width: 180px;
+    text-decoration: none;
+    color: #F4E7C5;
+
+}
+.foot_1_top_content a:hover{
+    color: goldenrod;
+}
+
+.bottom {
+    width: 100%;
+    height: 60px;
+    background: #15110E;
+}
+
+.bottom_1 {
+    height: 60px;
+    width: 1100px;
+    margin: 0 auto;
+    color: wheat;
+    font-size: 12px;
+    line-height: 60px;
+}
+
+.bottom_1 p {
+    float: left;
+}
+
+.bottom_1 span {
+    float: right;
+}
